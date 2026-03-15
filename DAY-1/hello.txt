@@ -1,0 +1,36 @@
+jo bhi code likhange js mein wo do prakaar ka code ho skta hai synchronous and asynchoronus
+
+console.log("hey ) synchounus code
+
+
+
+promises
+callbacks 
+settimout          asynchoronus log hai
+setinterval
+async await 
+
+
+
+
+apka code pehle synchounus part chlta hai
+synchounus code ko js chalati hai main thread pe, kyuki
+js single threaded hai , uska likha hua code chalna chaalu hota hai pahle  and mai thread occupy ho jata hai, aurr main thread pe sabse pehle  hamesa synchounus code chhalga , jab ye poora code finish hoga tab jaakar async code ke chalne ki aayegi  
+
+
+js single threaded --> js ek operation hi ek time kr sakti 
+means single core use 
+
+
+main thread  -- jha synchounus code chalata hai
+jo bhi main stack par ayega wo chalega
+
+webAPI --- brouser ki tarf se saaare features milte hai jo js mein nahi hote hai , wo features hum js mein use to krte hai par wo js ke features nahi hote hai wo humein brouser  se milta hai
+
+sync code main thread mei chalna chaalu ho jata hai and async code ko webAPI behind the scene operate karna challu kr deti hai , jab ye code complete hota hai tab ye code ka completion move hojata hai callback queue mein.
+
+
+callback queue ----> 
+macrotask queue ------->
+microtask queue ------->
+
