@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    text-align:center;
+    margin-top:50px;
+}
+
+#inn{
+    padding:10px;
+    width:220px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+#innn{
+    padding:10px 15px;
+    background:#24292e;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#innn:hover{
+    background:#444;
+}
+
+.profile-card{
+    margin-top:30px;
+    background:white;
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.profile-card img{
+    width:120px;
+    border-radius:50%;
+}
+
+.profile-card h2{
+    margin:10px 0;
+}
+
+.profile-card p{
+    color:#555;
+}
+
+
+#gh{
+    width:300px;
+    background:white;
+    padding:20px;
+    margin:30px auto;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+#gh img{
+    border-radius:50%;
+    margin-top:10px;
+}
+
+#gh h2{
+    margin:10px 0;
+    color:#333;
+}
+
+#gh p{
+    color:#555;
+    font-size:14px;
+}
